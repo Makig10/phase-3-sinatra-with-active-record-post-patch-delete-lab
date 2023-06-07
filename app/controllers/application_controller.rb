@@ -22,5 +22,9 @@ class ApplicationController < Sinatra::Base
     baked_good = BakedGood.by_price.first
     baked_good.to_json
   end
-
+  
+  post '/baked_goods' do
+    # Code to handle the POST request and create a new baked good
+    
+  end
 end
